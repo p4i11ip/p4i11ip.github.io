@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #292929;
-  scroll-margin-top: 200px;
+  scroll-margin-top: 180px;
 }
 
 a {
@@ -56,7 +56,7 @@ a {
 }
 
  #header-img {
-   width: 100%;
+   width: 70%;
    Height: 100%;
  }
 
@@ -64,12 +64,12 @@ a {
   background-color: #f9ffe3;
   display: flex;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
-   position: sticky;
-   top: 0;
+  position: sticky;
+  top: 0;
 }
 
 section {
-  margin-top: 30px;
+  margin: 0;
 }
 
 @media only screen and (max-width:700px) {
@@ -149,21 +149,13 @@ section {
 }
 
  h1 {
-   font-size: 52px;
-   margin: 0 6px;
-   margin-bottom: 20px;
-   margin-top: 40px;
-   text-align: center;
+   font-size: 100px;  
    font-weight: bold;
  }
 
  h3 {
    font-size: 26px;
    font-family: 'Trebuchet MS';
-   text-align: center;
-   margin: auto;
-   margin-bottom: 30px;
-   padding: 0px 40px;
    font-weight: normal;
  }
 
@@ -175,31 +167,44 @@ section {
    display: flex;
    flex-direction: row;
    margin: auto;
-   padding: 10px;
-   width: 45%;
+   padding: 2px;
+   width: 90%;
+   height: 24%;
    margin-bottom: 30px;
    margin-top: 0px;
+   margin-left: 4%;
    border: 2px solid #292929;
    border-radius: 5px 20px;
  }
 
  .icon {
+   height: 55%;
    display: flex;
    flex-direction: row;
-   height: 70%;
    margin: auto;
    margin-left: 6%;
    color: #00faa8;
  }
 
  .desc {
+   text-align: justify;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
+   flex-direction: row;
    height: 125px;
    width: 100%;
    padding: 5px;
+   margin: auto;
    margin-left: 6%;
+ }
+
+ .desc p {
+  margin: auto;
+  margin-left: 6%;
+  text-align: end;
+ }
+
+ .desc h2 {
+  margin: auto;
  }
 
  p {
@@ -215,7 +220,7 @@ section {
 
  @media only screen and (min-width:701px) {
   .material-symbols-outlined {
-    font-size: 85px !important;
+    font-size: 68px !important;
   }
  }
 
@@ -233,7 +238,6 @@ section {
 
  #Contact-Us h1 {
    margin: auto;
-   margin-top: 40px;
    margin-bottom: 20px;
    text-align: center; 
  }
@@ -271,8 +275,11 @@ section {
  }
 
  #submit {
-   font-size: 40px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+   font-size: 42px;
+   font-family: 'Big Shoulders Display';
+   font-weight: bold;
+   letter-spacing: 10px;
+   text-transform: uppercase;
    width: 50%;
    margin-left: 25%; 
    padding: 10px;
@@ -298,6 +305,7 @@ section {
   height: 100px;
   margin-top: 70px;
   text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
  .socials ul li {
@@ -307,4 +315,79 @@ section {
  }
  .socials ul li a{
   color:#f9ffe3;
+ }
+
+ .hero-content {
+  display: flex;
+  flex-direction: row;
+  height: 74vh;
+  border: 4px solid #00faa8;
+  border-radius: 15px 60px;
+  padding: 3%;
+  background: linear-gradient(#00faa8 40%, #f9ffe3);
+ }
+
+ #Who-We-Are h3 {
+  width: 52%;
+  text-align:justify;
+  line-height: 40px;
+  border-left: 4px solid #f9ffe3;
+  padding-left: 3%;
+  color:#292929;
+ }
+
+ #Who-We-Are h1{
+  width: 50%;
+  height: 100%; 
+  color:#292929; 
+  text-shadow: 1px 1px #292929; 
+ }
+
+ #Who-We-Are {
+  padding: 3%;
+  overflow: hidden;
+  
+ }
+
+ .main-img {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+ }
+
+ .hero-action {
+  display: block;
+  width: 48%;
+  height: 16%;
+  margin: auto;
+  margin-top: 20%;
+  font-size: 50px;
+  font-weight: bold;
+  border: 3px solid #292929;
+  border-radius: 15px 30px;
+  background-color: #00faa8;
+  padding: 14px;
+ }
+
+ .hero-action:hover {
+  background-color: #292929;
+  color:#00faa8;
+  border-color: #00faa8;
+ }
+
+ .hero-action:active {
+  background-color: #f9ffe3;
+ }
+
+ #What-We-Do {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  padding: 4%;
+ }
+
+ .grid-container {
+  margin: auto;
+  height: 70vh;
  }
